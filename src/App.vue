@@ -1,17 +1,20 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="row justify-content-center">
+      <div class="col-4">
+        <donate-form></donate-form>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import DonateForm from "@/components/DonateForm";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    DonateForm,
   }
 }
 </script>

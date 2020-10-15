@@ -2,19 +2,19 @@
   <div id="app">
     <div class="row justify-content-center">
       <div class="col-4">
-        <donate-form></donate-form>
+        <donation-form></donation-form>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import DonateForm from "@/components/DonateForm";
+import DonationForm from "@/components/DonationForm";
 
 export default {
   name: 'App',
   components: {
-    DonateForm,
+    DonationForm,
   }
 }
 </script>

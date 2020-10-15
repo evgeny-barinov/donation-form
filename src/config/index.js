@@ -8,4 +8,4 @@ export default {
   presets: [40, 100, 200, 1000, 2500, 5000]
 }
 
-export const API_URL = process.env.API_URL || "http://localhost:3000/";
+export const API_URL = process.env.VUE_APP_API_URL || "http://localhost:3000/";

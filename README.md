@@ -1,24 +1,12 @@
-# vue_test
+# Donate Form
 
-## Project setup
-```
-npm install
-```
+# How to check
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Just run `npm run server` to run the project in development mode.
+It will be enough to check.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+# API Configuration
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+By default it is configured to use `http://localhost:3000`
+In case you want to change it, create `.env` file in the project root.
+An example can be taken from `.env.sample`

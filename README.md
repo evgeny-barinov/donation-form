@@ -2,8 +2,8 @@
 
 # How to check
 
-Just run `npm run serve` to run the project in development mode.
-It will be enough to check.
+1. `npm install`
+2. `npm run serve` to run the project in development mode.
 
 # API
 
